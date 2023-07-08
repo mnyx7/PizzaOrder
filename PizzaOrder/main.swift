@@ -2,7 +2,7 @@
 //  main.swift
 //  PizzaOrder
 //
-//  Created by Shamkhal Guliyev on 17.12.22.
+//  Created by Minaya Yagubova on 17.12.22.
 //
 
 import Foundation
@@ -139,62 +139,3 @@ print("Ordered by: \(stringDetails)")
 let order = pizzaArray + sousArray + drinkArray
 let orderDetails = order.joined(separator: ", ")
 print ("Order details, \(orderDetails)")
-
-//var namePr:String = ownerName.joined(separator: " ")
-//var addressPr:String = ownerAddress.joined(separator: " ")
-//var numberPr:String = ownerNumber.joined(separator: " ")
-//var printall = [ ownerName, ownerAddress, ownerNumber]
-//var ishlede = printall.joined(separator: " ")
-
-
-
-//print( "Your order is: ", "\(pizzaArray), \(sousArray), \(drinkArray) ")
-//print("Ordered by: \(info)")
-
-
-// print as a normal text
-
-
-//var sousNumber = readLine()
-
-
-//
-//    if ((pizzaCount > 1)) {
-//
-//          //SOUS SELECTION
-//          print("Would you like to add sous?")
-//          print(sousList)
-//          if sousList[sousNumber ?? ""] != nil {
-//              print("Your selection is \(sousList[sousNumber ?? ""] ?? "" )") //why black???
-//          }
-//      }
-//    //DRINK SELECTION
-//else {
-//    print("Wrong selection")
-//    print("Please select which pizza you want")
-//    print("Drink?")
-//    print(drinkList)
-//    let drinkNumber = readLine()
-//    if drinkList[drinkNumber ?? ""] != nil{
-//        print ("Your selection is \(drinkList[drinkNumber ?? ""] ?? "")")
-//    }
-//    print("Press to proceed")
-//// print ("Confirm your order" + pizzaList[pizzaNumber ?? ""] ?? "", sousList[sousNumber ?? ""] ?? "" , drinkList[drinkNumber ?? ""] ?? "")
-//
-//
-//    //USER INFO - ADDRESS, FULLNAME, PHONE
-//
-//    print("Your Full name")
-//    var name = readLine() // _ is what?
-//    print("Your Address")
-//    var address = readLine()
-//    print("Your Number")
-//    var phoneNum = readLine()
-//
-//    //THANKS MESSAGE
-//
-//    print("Please check your order.")
-//    print("Thanks for your order!")
-//
-//}
-//
